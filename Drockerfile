@@ -1,4 +1,4 @@
-menggunakan base image ubuntu
+#menggunakan base image ubuntu
 Form ubuntu:22.04
 
 #Update dan install paket dasar
