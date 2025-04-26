@@ -1,0 +1,15 @@
+menggunakan base image ubuntu
+Form ubuntu:22.04
+
+#Update dan install paket dasar
+run apt-get update && apt-get install -y \
+bash \
+nano \
+cur1 \
+wget \
+inputils-ping \
+procps \
+net-tools
+
+#set Default Shell
+CMD ["/bin/bash"]
